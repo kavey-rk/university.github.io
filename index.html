@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=devie-width, initial-scale=1.0">
+        <title>Unicersity website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        
+        <div class="text-box">
+            <h1>Worse University Ever</h1>
+            <p>A leading European university with a wide range of research, education <br>and internationalization opportunities.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+        </section>
+
+<!--  Course  -->
+ 
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Explore our comprehensive range of BSc courses at The Learner Shelter, where each subject unfolds into a rich tapestry of learning, designed to shape well-rounded and informed individuals</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3> Pharmacy</h3>
+                    <p>Unlock the secrets of drug discovery and patient care through our Pharmacy program, where knowledge transforms into a prescription for a thriving and impactful career</p>
+                </div>
+                <div class="course-col">
+                    <h3> Applied Food & Nutrition</h3>
+                    <p>Unlock the potential of applied food and nutrition technology in our ANFT program, where you'll gain the expertise to innovate in food production, ensuring a healthier and sustainable future</p>
+                </div>
+                <div class="course-col">
+                    <h3> Information & Communication Tech</h3>
+                    <p>Immerse yourself in the ever-evolving world of technology with our ICT courses, designed to empower you with the skills and knowledge needed to navigate the digital landscape and drive innovation</p>
+                </div>
+            </div>
+
+        </section>
+
+<!--  Global Campus  -->
+        <section class="campus">
+            <h1>Our global campus</h1>
+            <p>Step into our global campus, a hub of learning that connects minds from around the world</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/london.png">
+                    <div class="c-layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png">
+                    <div class="c-layer">
+                        <h3>New York</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/washington.png">
+                    <div class="c-layer">
+                        <h3>Wahington</h3>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+<!--  Facilities  -->
+        <section class="f1">
+            <h1> The Facilities</h1>
+            <p>Our commitment to your learning journey extends to world-class facilities, ensuring you have access to cutting-edge technology, inviting study spaces, and collaborative areas that inspire innovation and intellectual growth</p>
+            <div class="row">
+                <div class="f1-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Dive into a world of knowledge at our world-class library</p>
+                </div>
+                <div class="f1-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>Dive into a world of knowledge at our world-class library</p>
+                </div>
+                <div class="f1-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy food</h3>
+                    <p>Dive into a world of knowledge at our world-class library</p>
+                </div>
+            </div>
+        </section>
+
+<!--Testimonials-->
+
+        <section class="testimonials">
+            <h3> What our Student Say</h3>
+            <p> Best platform for learning various subjects</p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="images/user1.jpg">
+                    <div>
+                        <p>Yeah.This websirte help me to enrich my knowledge</p>
+                        <h3 style="color: black;">Christne Berkly</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>Yeah.This websirte help me to enrich my knowledge</p>
+                        <h3 style="color: black;">David Marathon</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+<!--Call To Action-->
+
+        <section class="cta">
+            <h1>Enroll Our Online Courses </h1>
+            <a href="" class="hero-btn">Contact US</a>
+
+        </section>
+
+<!--Footer-->
+        <section class="footer">
+            <h1>About Us</h1>
+            <p>We are vut,petni,jin and all species related this</p>
+        </section>
+
+<!--JavaScript for toggle menu-->
+        <script>
+            var navLinks= document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right= "0";
+            }
+            function hideMenu(){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+
+    </body>
+
+
+
+
+</html>
